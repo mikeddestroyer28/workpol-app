@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "WorkPol",
+    "slug": "workpol-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "workpol",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.workpol.app"
+    },
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "package": "com.workpol.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "2028f8f5-46c1-44b0-979c-a370684253d7"
+      }
+    },
+    "owner": "emzathecreators-team",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/2028f8f5-46c1-44b0-979c-a370684253d7"
+    },
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
