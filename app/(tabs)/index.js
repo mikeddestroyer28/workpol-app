@@ -14,7 +14,7 @@ export default function Home() {
     <ScrollView style={{ backgroundColor: colors.bg }} contentContainerStyle={{ paddingBottom: 40 }}>
       <LinearGradient colors={["#2a0a0d", colors.bg]} style={{ padding: 20, paddingTop: 28, marginBottom: 20 }}>
         <Text style={{ color: colors.text2, fontSize: 12, marginBottom: 14 }}>● Poland's agency job marketplace</Text>
-        <Text style={[s.h1, { color: colors.text1 }]}>Real Jobs.</Text>
+        <Text style={[s.h1, { color: colors.text1 }]}>Real Jobs Updated.</Text>
         <Text style={[s.h1, { color: colors.text1 }]}>Full <Text style={{ color: colors.red }}>Transparency.</Text></Text>
         <Text style={{ color: colors.text2, fontSize: 14, lineHeight: 21, marginVertical: 16 }}>
           No more hunting Facebook groups or WhatsApp chains. Verified agency jobs across Poland — pay rates, documents and accommodation clearly listed.
