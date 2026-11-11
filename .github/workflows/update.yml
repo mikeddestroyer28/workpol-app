@@ -15,6 +15,6 @@ jobs:
       - uses: expo/expo-github-action@v8
         with:
           eas-version: latest
-          token: ${{ secrets.EXPO_TOKEN }}
+          token: ${{ secrets.EXPO_PRACA_TOKEN }}
       - run: npm ci
       - run: eas update --channel preview --non-interactive --message "${{ github.event.head_commit.message }}"
